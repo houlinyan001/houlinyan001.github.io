@@ -38,7 +38,7 @@
 		<!--buttontext: 登录按钮中的文字，定义为可选标签，长度限制为2-8字节;  -->
 		<findpsw url="https://passport.sohu.com/web/RecoverPwdInput.action" content="找回密码"/>
 		<!--忘记密码页的url，即用户在点击登录框中的“忘记密码”时跳转到相关页面的url。长度限制为4－34字节-->
-		<register url="https://passport.sohu.com/web/dispatchAction.action?ru=http://login.mail.sohu.com/reg/signup_success.jsp" content="注册邮箱" />
+		<register url="https://passport.sohu.com/web/dispatchAction.action&amp;ru=http://login.mail.sohu.com/reg/signup_success.jsp" content="注册邮箱" />
 		<!--注册邮箱页的url，即用户在点击登录框中的“注册邮箱”时跳转到相关页面的url。长度限制为4－34字节-->
 		<showurl>mail.sohu.com/</showurl>
 		<!--用于显示在搜索结果的下方，请仅填写资源所属站点的一级域名，否则可能不能通过审核。不需要有”http://”的部分；Showurl的长度限制为2－42字节，如果超过42字节，请截断，并增加省略符号“…”，并保证截断后的showurl加上省略符号总长度不超过42字节-->
